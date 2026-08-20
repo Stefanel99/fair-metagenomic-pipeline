@@ -1,0 +1,25 @@
+name: fair-metagenomics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - fastqc
+  - multiqc
+  - seqkit
+  - minimap2
+  - bowtie2
+  - samtools
+  - seqtk
+  - sourmash
+  - kraken2
+  - bracken
+  - krona
+  - matplotlib
+  - seaborn
+  - pandas
+  - numpy
+  - emboss
+  - r-base
+  - bioconductor-rsamtools
