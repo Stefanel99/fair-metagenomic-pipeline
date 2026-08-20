@@ -2,7 +2,7 @@
 
 Automated, reproducible pipeline for shotgun metagenomics analysis of Nanopore and Illumina sequencing data, developed following FAIR (Findable, Accessible, Interoperable, Reusable) principles.
 
-## 📋 Overview
+## Overview
 
 This pipeline was developed during my Bachelor's thesis internship at SLU (Swedish University of Agricultural Sciences) in collaboration with the rumen interaction research project. It processes metagenomic samples from Ethiopian Boran cattle rumen, comparing microbial community composition across two seasons (February dry season vs. July wet season).
 
@@ -20,7 +20,7 @@ This pipeline was developed during my Bachelor's thesis internship at SLU (Swedi
 3. Trimming (SeqKit, duplicate removal)
 4. Taxonomic Profiling (sourmash / Kraken2+Bracken / Kraken2+sourmash)
 
-## 🔧 Requirements
+## Requirements
 
 - Linux/Unix environment (HPC cluster recommended)
 - Conda/Mamba for dependency management
@@ -52,4 +52,4 @@ This pipeline was developed during my Bachelor's thesis internship at SLU (Swedi
 | Kraken2 Standard (2024-06-05) | 78 GB | Kraken2, Bracken |
 | Bos taurus reference genome | ~3 GB | Minimap2, Bowtie2 |
 
-## 🚀 Quick Start
+## Quick Start
