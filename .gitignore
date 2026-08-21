@@ -1,0 +1,31 @@
+# Data files (too large for GitHub)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.mmi
+*.sig
+*.csv
+*.kreport
+*.kraken
+*.bracken
+
+# Databases
+genomes/
+indexes/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.vscode/
+.idea/
