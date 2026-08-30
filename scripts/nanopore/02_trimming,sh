@@ -11,3 +11,4 @@ echo $(infoseq "/proj/rumen_interaction/NOBACKUP/results/Nanopore/chopper/trimme
 
 echo "Finished counting for ${file_name} !"
 done
+
