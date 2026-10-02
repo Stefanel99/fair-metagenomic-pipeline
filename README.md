@@ -486,11 +486,11 @@ They include:
 
 | Script | Purpose |
 |---|---|
-| plot_reads_data.py | Plot read counts across samples |
-| plot_phyla_boxplot.py | Plot phylum-level abundance distributions |
-| plot_lost_reads.py | Plot read loss across pipeline steps |
-| scatter_reads_vs_species.py | Scatterplot of reads versus detected species |
-| scatter_classified_vs_species.py | Scatterplot of classified reads versus detected species |
+| boxplot_phyla.py | Plot phylum-level abundance distributions |
+| plot_lost_illumina.py | Plot read loss in the Illumina dataset |
+| plot_lost_nanopore.py | Plot read loss in the Nanopore dataset |
+| scatter_illumina_kraken2.py | Scatterplot of raw/total classified reads versus detected species at the Krakn2 level |
+| scatter_illumina_kraken2_bracken.py | Scatterplot of re-estimated abundance reads versus detected species after Bracken re-estimation |
 
 Example usage:
 
