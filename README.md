@@ -179,11 +179,11 @@ fair-metagenomics-pipeline/
 │   │   ├── 07_taxonomic_kraken2_bracken.sh
 │   │   └── 08_taxonomic_kraken2_sourmash.sh
 │   └── visualization/
-│       ├── plot_reads_data.py
 │       ├── plot_phyla_boxplot.py
-│       ├── plot_lost_reads.py
-│       ├── scatter_reads_vs_species.py
-│       └── scatter_classified_vs_species.py
+│       ├── plot_lost_illumina.py
+│       ├── plot_lost_nanopore.py
+│       ├── scatter_illumina_kraken2.py
+│       └── scatter_illumina_kraken2_bracken.py
 └── docs/
     ├── pipeline_workflow.md
     └── parameter_justification.md
